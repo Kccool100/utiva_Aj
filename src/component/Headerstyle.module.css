@@ -1,0 +1,98 @@
+.headcom{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: #F9FAF3;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.myhold{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoCon{
+    align-items: center;
+    height: 100%;
+    color: #050794;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 50px;
+
+}
+.navigation{
+    height: 100%;
+    gap: 1rem;
+    width: 400px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_link{
+    font-weight: 400;
+    cursor: pointer;
+    
+    color: black;
+}
+@media screen and (max-width:800px){
+    .nav_link{
+        display: none;
+    }
+
+}
+.butn{
+    width: 350px;
+    height: 80px;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+@media screen and (max-width:600px){
+    .butn{
+         display: none;
+    }
+   
+}
+
+.iconHolder{
+    height: 100px;
+    width: 50px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+@media screen and (max-width:600px){
+    .iconHolder{
+        display: flex;
+    }
+}
+.firsticonHolder{
+    height: 100px;
+    width: 50px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+@media screen and (max-width:800px){
+    .firsticonHolder{
+        display: flex;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    .firsticonHolder{
+        display: none;
+    }
+    
+}
